@@ -14,7 +14,6 @@ const ResultsDetail = ({result}) => {
 const style = StyleSheet.create({
     container: {
         marginLeft: 15,
-        // marginVertical: 15,
     },
     image: {
         width: 250,

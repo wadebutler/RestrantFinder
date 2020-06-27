@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet, ScrollView} from 'react-native';
+import {Text, StyleSheet, ScrollView} from 'react-native';
 import SearchBar from '../Components/SearchBar';
 import useResults from '../hooks/useResults';
 import ResultsList from '../Components/ResultsList';
@@ -38,7 +38,7 @@ const SearchScreen = () => {
                 />
                 <ResultsList 
                     results={filterResultsByPrice('$$$$')} 
-                    title="Do You $$$$"
+                    title="Break the Bank $$$$"
                 />
             </ScrollView>
         </>
